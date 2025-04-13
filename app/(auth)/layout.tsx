@@ -2,8 +2,7 @@ import React from 'react'
 
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
-      <div>AuthLayout</div>
+    <div className='auth-layout'>
       <div>{children}</div>
     </div>
   )
